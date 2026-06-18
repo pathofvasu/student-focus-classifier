@@ -36,8 +36,7 @@ try:
     df = pd.read_csv("data/student_focus_behavior.csv")
 except FileNotFoundError:
     import sys
-    sys.path.insert(0, "data")
-    from generate_dataset import generate_dataset
+    from data.generate_dataset import generate_dataset
     df = generate_dataset()
 
 print(f"\n[DATA] Shape: {df.shape}")
