@@ -237,7 +237,7 @@ student-focus-classifier/
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/pathofvasu/student-focus-classifier)
 cd student-focus-classifier
 ```
 
