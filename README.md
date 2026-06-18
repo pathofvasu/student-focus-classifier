@@ -163,34 +163,28 @@ Generated insights include:
 
 ## Output Visualizations
 
-The pipeline automatically generates:
+The pipeline automatically generates model analysis charts to understand performance and behavioral patterns.
 
 ### Model Insights
 
-Contains:
+Includes:
 
-* Feature importance ranking
-* Confusion matrix
-* ROC curve comparison
+- Feature importance ranking
+- Confusion matrix
+- ROC curve comparison
 
-Location:
+![Model Insights](outputs/model_insights.png)
 
-```
-outputs/model_insights.png
-```
+---
 
 ### Prediction Probability Distribution
 
-Shows separation between:
+Shows how the model separates:
 
-* Low-focus sessions
-* High-focus sessions
+- Low-focus sessions
+- High-focus sessions
 
-Location:
-
-```
-outputs/probability_distribution.png
-```
+![Prediction Probability Distribution](outputs/probability_distribution.png)
 
 ---
 
